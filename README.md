@@ -6,7 +6,7 @@ The main idea of this project is to customize RAMSES in order to take into accou
 
 <img src="https://latex.codecogs.com/svg.image?\Delta&space;\phi&space;=4&space;\pi&space;G&space;\rho&space;-&space;\vec{\nabla}&space;\cdot&space;\vec{\Pi}" titre="Modified Poisson" />
 
-<img src="https://latex.codecogs.com/svg.image?\vec{\Pi}" titre="pi" /> is a gravity quantity that leaves on the RAMSES grid and has its own dynamics that has also been implemented in this patch. DDM also introduce a new *internal* force that affects only this very special type of dark matter but not the baryons. To implement it, dark matter is differentiated from the baryons with the tag of RAMSES. (Dipolar) Dark matter carries the tag 0, while the baryons have the tag 1.  
+<img src="https://latex.codecogs.com/svg.image?\vec{\Pi}" titre="pi" /> is a gravity quantity that lives on the RAMSES grid and has its own dynamics that has also been implemented in this patch. DDM also introduce a new *internal* force that affects only this very special type of dark matter but not the baryons. To implement it, dark matter is differentiated from the baryons with the tag of RAMSES. (Dipolar) Dark matter carries the tag 0, while the baryons have the tag 1.  
 
 At the moment, the code has only been tested with isolated simulations of spherical dwarf galaxies. More details can be found in https://arxiv.org/abs/2209.07831
 
